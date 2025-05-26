@@ -1,0 +1,79 @@
+figure {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+figcaption {
+  margin: 15px 0 5px 0;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+body {
+  font-family: -apple-system;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+main {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 1rem;
+  min-height: 100vh;
+  margin: 1rem 0.2rem;
+}
+h1 {
+  text-align: center;
+  font-family: Helvetica;
+  margin-bottom: 0px;
+  font-size: 4rem;
+}
+
+#sub-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+section {
+  /*background-color: #333333;*/
+  text-align: center;
+  margin: 0 auto;
+}
+
+#section-title {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 50px 0;
+}
+
+#tribute-info > ul {
+  display: inline-block;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 0;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+#tribute-info > ul > li {
+  margin-bottom: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h4 a {
+  color: #477ca7;
+}

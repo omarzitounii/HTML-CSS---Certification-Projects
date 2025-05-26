@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 0 20px;
+  background-color: #eee;
+}
+
+.logo {
+  width: 60vw;
+}
+
+#header-img {
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  width: 35vw;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#get-started {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 300px;
+  padding: 5px;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: #f1c40f;
+  border: 0;
+  font-weight: 1000;
+  font-size: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.icon {
+  color: orange;
+  width: 1%;
+}
+
+.description {
+  width: 80%;
+}
+
+.description h2,
+.description p {
+  margin: 5px;
+}
+
+#how-it-works {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#pricing {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.product .level {
+  background-color: #ddd;
+  width: 100%;
+  padding: 15px 0;
+  font-weight: 600;
+}
+
+.product h2,
+.product ol {
+  margin-bottom: 0;
+}
+
+.product ol {
+  list-style-type: none;
+  line-height: 1.5;
+  padding-left: 0;
+}
+
+.product button {
+  margin-bottom: 15px;
+  width: 30%;
+}
+
+footer {
+  margin-top: 50px;
+  padding-bottom: 35px;
+  padding-top: 15px;
+  background-color: #ddd;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  padding: 0 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer span {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* placeholder */
+@media (max-width: 500px) {
+}
